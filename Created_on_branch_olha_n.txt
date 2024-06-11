@@ -1,0 +1,3 @@
+Here are  some meaningless quotest just to practce git operations and work with branches:
+“Hard work never killed anybody, but why take a chance?” — Edgar Bergen
+"Work is the greatest thing in the world, so we should always save some of it for tomorrow.” — Don Herold
