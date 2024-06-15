@@ -9,6 +9,7 @@
       "album": "A Night at the Opera",
       "is_single": true
     },
+
     {
       "title": "Another One Bites the Dust",
       "duration_minutes": 3.35,
