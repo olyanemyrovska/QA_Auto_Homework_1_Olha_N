@@ -3,29 +3,34 @@ public class Character {
     int health;
     int strength;
     int defense;
-    static int charactersCount;
+    static int charactersCount = 0;
 
     public Character(String name, int health, int strength, int defense) {
         this.name = name;
         this.health = health;
         this.strength = strength;
         this.defense = defense;
+        charactersCount++;
     }
 
     public void attack(Character other) {
-        if (this.health > 0) {
-            if (this.strength < other.defense) {
-                System.out.println(this.name + ": your current strength is not enough to attack " + other.name);
-
+        if (this.isAlive()) {
+            if (this.strength > other.defense) {
+                int damage = this.strength - other.defense;
+                other.takeDamage(damage);
+                System.out.println(this.name + " attacks " + other.name + " for " + damage + " damage!");
             } else {
-                other.takeDamage(this.strength - other.defense);
-
+                System.out.println(this.name + " attack is too weak to damage " + other.name);
             }
+            this.displayStatus();
+            other.displayStatus();
+        }else{
+            System.out.println(this.name + " is not alive and cannot attack.");
         }
     }
 
     public void takeDamage(int damage) {
-        if (this.health > 0 && this.health >= damage) {
+        if (this.health >= damage) {
             this.health -= damage;
         } else {
             this.health = 0;
@@ -37,6 +42,6 @@ public class Character {
     }
 
     public void displayStatus() {
-        System.out.println(this.name + " health: " + this.health + ", strength is: " + this.strength + ", defence: " + this.defense);
+        System.out.println(this.name + " health: " + this.health + ", strength: " + this.strength + ", defense: " + this.defense);
     }
 }
