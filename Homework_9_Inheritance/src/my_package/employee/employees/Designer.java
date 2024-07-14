@@ -1,6 +1,6 @@
-package employee.employees;
+package my_package.employee.employees;
 
-import employee.Employee;
+import my_package.employee.Employee;
 
 public class Designer extends Employee {
 

@@ -1,6 +1,6 @@
-package employee.employees;
+package my_package.employee.employees;
 
-import employee.Employee;
+import my_package.employee.Employee;
 
 public class Manager extends Employee {
     public Manager(String name, int age, double salary) {
@@ -23,7 +23,7 @@ public class Manager extends Employee {
 
     @Override
     public void describeRole(String extraInfo) {
-
+        describeRole();
         System.out.println("Here is extra info you should know about managers job: " +
                 " " + extraInfo);
     }

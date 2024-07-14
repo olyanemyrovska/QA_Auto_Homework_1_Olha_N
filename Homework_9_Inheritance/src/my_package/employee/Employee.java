@@ -1,4 +1,4 @@
-package employee;
+package my_package.employee;
 
 public class Employee {
     private String name;
@@ -12,20 +12,20 @@ public class Employee {
     }
 
     public void work() {
-        System.out.println("Employee "+ this.name + " is working at the moment.");
+        System.out.println("Employee " + this.name + " is working again.");
     }
 
     public void takeBreak() {
-        System.out.println("Employee "+ this.name + " is having a break at the moment.");
+        System.out.println("Employee " + this.name + " is having a break.");
 
     }
 
     public void performJob() {
-        System.out.println("Employee "+ this.name + " is performing a very important job.");
+        System.out.println("Employee " + this.name + " is performing a very important job.");
     }
 
     public void describeRole() {
-        System.out.println( "Employee " + this.name + " works as a " + this.getClass() + " in the " + " ABC company.");
+        System.out.println("Employee " + this.name + " works in the ABC company.");
 
     }
 

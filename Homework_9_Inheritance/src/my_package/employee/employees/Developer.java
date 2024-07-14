@@ -1,8 +1,15 @@
-package employee.employees;
+package my_package.employee.employees;
 
-import employee.Employee;
+import my_package.employee.Employee;
 
 public class Developer extends Employee {
+    private boolean isSenior;
+
+    public Developer(String name, int age, double salary, boolean isSenior) {
+        super(name, age, salary);
+        this.isSenior = isSenior;
+
+    }
 
     public Developer(String name, int age, double salary) {
         super(name, age, salary);
@@ -23,5 +30,22 @@ public class Developer extends Employee {
     @Override
     public void describeRole(String extraInfo) {
         System.out.println("Here is extra info you should know about a developer's job: " + extraInfo);
+    }
+
+    @Override
+    public void work() {
+        if (isSenior) {
+            System.out.println(this.getName() + " is currently in the meeting.");
+        } else {
+            super.work();
+        }
+    }
+
+    public boolean isSenior() {
+        return isSenior;
+    }
+
+    public void setSenior(boolean senior) {
+        isSenior = senior;
     }
 }
