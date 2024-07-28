@@ -3,30 +3,30 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Circus<T> {
-    private List<T> artists;
+    private List<T> performers;
 
     public Circus() {
-        this.artists = new ArrayList<>();
+        this.performers = new ArrayList<>();
     }
 
     public void addPerformer(T performer) {
-        artists.add(performer);
+        performers.add(performer);
     }
 
     public void removePerformer(T performer) {
-        artists.remove(performer);
+        performers.remove(performer);
     }
     public void removeAllPerformers() {
-        artists.clear();
+        performers.clear();
     }
 
     public List<T> listPerformers() {
-        return artists;
+        return performers;
     }
 
     public void saveToFile(String filename) {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filename))) {
-            oos.writeObject(artists);
+            oos.writeObject(performers);
         } catch (IOException e) {
             System.out.println("Error saving to file: " + e.getMessage());
         }
@@ -34,7 +34,7 @@ public class Circus<T> {
 
     public void loadFromFile(String filename) {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filename))) {
-            artists = (List<T>) ois.readObject();
+            performers = (List<T>) ois.readObject();
         } catch (IOException | ClassNotFoundException |ClassCastException e) {
             System.out.println("Error loading from file: " + e.getMessage());
         }
