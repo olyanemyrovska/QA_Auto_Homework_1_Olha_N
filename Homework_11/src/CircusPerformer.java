@@ -18,6 +18,17 @@ public class CircusPerformer implements Serializable {
         }
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getPerformanceType() {
+        return performanceType;
+    }
+
+    public int getExperience() {
+        return experience;
+    }
 
     @RunImmediately(times = 3)
     public void printFullInfo() {

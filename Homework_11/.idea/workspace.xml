@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0d007e8f-6c39-47b8-b5da-79f1b859ac72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusPerformersFile" beforeDir="false" afterPath="$PROJECT_DIR$/CircusPerformersFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircusPerformersFile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Circus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CircusPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircusPerformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InvalidExperienceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvalidExperienceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +27,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2jstR1Y67Ri3e77RGZQQWoViKql" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
