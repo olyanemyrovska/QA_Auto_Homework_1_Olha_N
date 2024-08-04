@@ -1,0 +1,4 @@
+Ivan P.,juggler,10
+Andrii R.,acrobat,15
+Mykyta D.,clown,4
+Annd F.,Dancer,8

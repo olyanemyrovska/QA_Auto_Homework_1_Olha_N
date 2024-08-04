@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d007e8f-6c39-47b8-b5da-79f1b859ac72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Performer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircusPerformersFile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Circus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CircusPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircusPerformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -21,6 +21,7 @@
       <list>
         <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
